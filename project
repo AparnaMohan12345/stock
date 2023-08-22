@@ -1,0 +1,4 @@
+import mysql.connector
+mydb = mysql.connector.connect(host = "localhost", user = "root", password ="aparnamohan@123", port =3306)
+
+mycursur = mydb.cursor()
